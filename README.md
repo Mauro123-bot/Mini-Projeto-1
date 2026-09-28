@@ -31,5 +31,8 @@ Os dados coletados são organizados.
 - Geração e publicação do arquivo requirements.txt com os requisitos solicitados.
 
 ### Dia 2: Desenvolvimento do Robô (Hoje)
-- Planejamento da lógica de raspagem dos dados eleitorais.
-- *[Próximo passo: registrar aqui os detalhes do desenvolvimento do script]*
+- *Implementação do Selenium:* Configuração do navegador automatizado para interagir com o portal oficial do PesqEle do Tribunal Superior Eleitoral (TSE).
+- *Automação de Cliques:* Criação da lógica para o robô localizar de forma inteligente o menu de pesquisas registradas e simular o clique humano para transição de página.
+- *Filtro Inteligente de Dados:* Uso do BeautifulSoup para varrer o código HTML capturado, filtrando termos institucionais irrelevantes e isolando apenas opções úteis de consultas de pesquisas.
+- *Estruturação em Tabela:* Organização visual dos dados filtrados diretamente no console do terminal.
+- *Exportação de Dados:* Integração
