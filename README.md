@@ -23,14 +23,14 @@ Os dados coletados são organizados.
 
 ## 📅 Diário de Bordo
 
-### Dia 1: Preparação do Ambiente (Ontem)
+### Dia 1: Preparação do Ambiente 
 - Criação e estruturação inicial do repositório no GitHub.
 - Clonagem do projeto para a máquina local via Git.
 - Configuração de um ambiente virtual isolado (venv) para gerenciamento seguro de dependências.
 - Instalação dos módulos requests, beautifulsoup4 e selenium.
 - Geração e publicação do arquivo requirements.txt com os requisitos solicitados.
 
-### Dia 2: Desenvolvimento do Robô (Hoje)
+### Dia 2: Desenvolvimento do Robô 
 - *Implementação do Selenium:* Configuração do navegador automatizado para interagir com o portal oficial do PesqEle do Tribunal Superior Eleitoral (TSE).
 - *Automação de Cliques:* Criação da lógica para o robô localizar de forma inteligente o menu de pesquisas registradas e simular o clique humano para transição de página.
 - *Filtro Inteligente de Dados:* Uso do BeautifulSoup para varrer o código HTML capturado, filtrando termos institucionais irrelevantes e isolando apenas opções úteis de consultas de pesquisas.
